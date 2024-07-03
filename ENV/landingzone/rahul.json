@@ -1,0 +1,322 @@
+module.rg.azurerm_resource_group.myrg["rg1"]: Refreshing state... [id=/subscriptions/24a39552-b2b4-4248-82ea-0f1e564e911b/resourceGroups/ALZ]
+module.keyvault.data.azurerm_client_config.current: Reading...
+module.keyvault.data.azurerm_client_config.current: Read complete after 0s [id=Y2xpZW50Q29uZmlncy9jbGllbnRJZD0wNGIwNzc5NS04ZGRiLTQ2MWEtYmJlZS0wMmY5ZTFiZjdiNDY7b2JqZWN0SWQ9NmY2MjE2NTUtZWY1My00OTM4LWJmNjItZmMyYjYxNzEzODdmO3N1YnNjcmlwdGlvbklkPTI0YTM5NTUyLWIyYjQtNDI0OC04MmVhLTBmMWU1NjRlOTExYjt0ZW5hbnRJZD1kZjUwZjgzZS03MDhkLTQ2OTQtOGE5Zi1kNmQ5ZTc5NGIxZjg=]
+module.keyvault.azurerm_key_vault.example["keyvault1"]: Refreshing state... [id=/subscriptions/24a39552-b2b4-4248-82ea-0f1e564e911b/resourceGroups/ALZ/providers/Microsoft.KeyVault/vaults/alzrakeyvault1912345]
+module.keyvault.data.azurerm_key_vault_secrets.datakey["keyvault1"]: Reading...
+module.keyvault.data.azurerm_key_vault_secrets.datakey["keyvault1"]: Read complete after 1s [id=/subscriptions/24a39552-b2b4-4248-82ea-0f1e564e911b/resourceGroups/ALZ/providers/Microsoft.KeyVault/vaults/alzrakeyvault1912345]
+module.keyvault.azurerm_key_vault_secret.username["keyvault1"]: Refreshing state... [id=https://alzrakeyvault1912345.vault.azure.net/secrets/username/18c5662532344fe3914e1a1c3010bf77]
+module.keyvault.azurerm_key_vault_secret.password["keyvault1"]: Refreshing state... [id=https://alzrakeyvault1912345.vault.azure.net/secrets/password/24e4be2d891441e8a6da18a56a169535]
+module.Vnet.azurerm_virtual_network.vnet["Vnet1"]: Refreshing state... [id=/subscriptions/24a39552-b2b4-4248-82ea-0f1e564e911b/resourceGroups/ALZ/providers/Microsoft.Network/virtualNetworks/lz_vnet]
+module.subnet.azurerm_subnet.subnet["subnet3"]: Refreshing state... [id=/subscriptions/24a39552-b2b4-4248-82ea-0f1e564e911b/resourceGroups/ALZ/providers/Microsoft.Network/virtualNetworks/lz_vnet/subnets/Backendsub]
+module.subnet.azurerm_subnet.subnet["subnet2"]: Refreshing state... [id=/subscriptions/24a39552-b2b4-4248-82ea-0f1e564e911b/resourceGroups/ALZ/providers/Microsoft.Network/virtualNetworks/lz_vnet/subnets/AzureBastionSubnet]
+module.subnet.azurerm_subnet.subnet["subnet1"]: Refreshing state... [id=/subscriptions/24a39552-b2b4-4248-82ea-0f1e564e911b/resourceGroups/ALZ/providers/Microsoft.Network/virtualNetworks/lz_vnet/subnets/Frontendsub]
+module.nic.data.azurerm_subnet.datasubnet["NIC2"]: Reading...
+module.nsg.data.azurerm_subnet.datasubnet["nsg2"]: Reading...
+module.nic.data.azurerm_subnet.datasubnet["NIC1"]: Reading...
+module.nsg.data.azurerm_subnet.datasubnet["nsg1"]: Reading...
+module.nsg.azurerm_network_security_group.NSG["nsg3"]: Refreshing state... [id=/subscriptions/24a39552-b2b4-4248-82ea-0f1e564e911b/resourceGroups/ALZ/providers/Microsoft.Network/networkSecurityGroups/AzureBastionSubnetNSG]
+module.nsg.azurerm_network_security_group.NSG["nsg2"]: Refreshing state... [id=/subscriptions/24a39552-b2b4-4248-82ea-0f1e564e911b/resourceGroups/ALZ/providers/Microsoft.Network/networkSecurityGroups/Backendsub_NSG]
+module.nsg.azurerm_network_security_group.NSG["nsg1"]: Refreshing state... [id=/subscriptions/24a39552-b2b4-4248-82ea-0f1e564e911b/resourceGroups/ALZ/providers/Microsoft.Network/networkSecurityGroups/frontendsubnet_nsg]
+module.nic.data.azurerm_subnet.datasubnet["NIC2"]: Read complete after 0s [id=/subscriptions/24a39552-b2b4-4248-82ea-0f1e564e911b/resourceGroups/ALZ/providers/Microsoft.Network/virtualNetworks/lz_vnet/subnets/Backendsub]
+module.nic.data.azurerm_subnet.datasubnet["NIC1"]: Read complete after 0s [id=/subscriptions/24a39552-b2b4-4248-82ea-0f1e564e911b/resourceGroups/ALZ/providers/Microsoft.Network/virtualNetworks/lz_vnet/subnets/Frontendsub]
+module.nic.azurerm_network_interface.NIC["NIC2"]: Refreshing state... [id=/subscriptions/24a39552-b2b4-4248-82ea-0f1e564e911b/resourceGroups/ALZ/providers/Microsoft.Network/networkInterfaces/backend-nic]
+module.nic.azurerm_network_interface.NIC["NIC1"]: Refreshing state... [id=/subscriptions/24a39552-b2b4-4248-82ea-0f1e564e911b/resourceGroups/ALZ/providers/Microsoft.Network/networkInterfaces/frontend-nic]
+module.nsg.data.azurerm_subnet.datasubnet["nsg2"]: Read complete after 0s [id=/subscriptions/24a39552-b2b4-4248-82ea-0f1e564e911b/resourceGroups/ALZ/providers/Microsoft.Network/virtualNetworks/lz_vnet/subnets/Backendsub]
+module.VM.data.azurerm_key_vault.keyvault: Reading...
+module.VM.data.azurerm_network_interface.dataNic["VM1"]: Reading...
+module.VM.data.azurerm_client_config.current: Reading...
+module.VM.data.azurerm_network_interface.dataNic["VM2"]: Reading...
+module.VM.data.azurerm_client_config.current: Read complete after 0s [id=Y2xpZW50Q29uZmlncy9jbGllbnRJZD0wNGIwNzc5NS04ZGRiLTQ2MWEtYmJlZS0wMmY5ZTFiZjdiNDY7b2JqZWN0SWQ9NmY2MjE2NTUtZWY1My00OTM4LWJmNjItZmMyYjYxNzEzODdmO3N1YnNjcmlwdGlvbklkPTI0YTM5NTUyLWIyYjQtNDI0OC04MmVhLTBmMWU1NjRlOTExYjt0ZW5hbnRJZD1kZjUwZjgzZS03MDhkLTQ2OTQtOGE5Zi1kNmQ5ZTc5NGIxZjg=]
+module.nsg.data.azurerm_subnet.datasubnet["nsg1"]: Read complete after 2s [id=/subscriptions/24a39552-b2b4-4248-82ea-0f1e564e911b/resourceGroups/ALZ/providers/Microsoft.Network/virtualNetworks/lz_vnet/subnets/Frontendsub]
+module.nsg.azurerm_subnet_network_security_group_association.subnet_to_nsg["nsg2"]: Refreshing state... [id=/subscriptions/24a39552-b2b4-4248-82ea-0f1e564e911b/resourceGroups/ALZ/providers/Microsoft.Network/virtualNetworks/lz_vnet/subnets/Backendsub]
+module.nsg.azurerm_subnet_network_security_group_association.subnet_to_nsg["nsg1"]: Refreshing state... [id=/subscriptions/24a39552-b2b4-4248-82ea-0f1e564e911b/resourceGroups/ALZ/providers/Microsoft.Network/virtualNetworks/lz_vnet/subnets/Frontendsub]
+module.VM.data.azurerm_key_vault.keyvault: Read complete after 1s [id=/subscriptions/24a39552-b2b4-4248-82ea-0f1e564e911b/resourceGroups/ALZ/providers/Microsoft.KeyVault/vaults/alzrakeyvault1912345]
+module.VM.data.azurerm_key_vault_secret.password: Reading...
+module.VM.data.azurerm_key_vault_secret.username: Reading...
+module.VM.data.azurerm_network_interface.dataNic["VM2"]: Read complete after 1s [id=/subscriptions/24a39552-b2b4-4248-82ea-0f1e564e911b/resourceGroups/ALZ/providers/Microsoft.Network/networkInterfaces/backend-nic]
+module.VM.data.azurerm_network_interface.dataNic["VM1"]: Read complete after 1s [id=/subscriptions/24a39552-b2b4-4248-82ea-0f1e564e911b/resourceGroups/ALZ/providers/Microsoft.Network/networkInterfaces/frontend-nic]
+module.VM.data.azurerm_key_vault_secret.username: Read complete after 0s [id=https://alzrakeyvault1912345.vault.azure.net/secrets/username/18c5662532344fe3914e1a1c3010bf77]
+module.VM.data.azurerm_key_vault_secret.password: Read complete after 1s [id=https://alzrakeyvault1912345.vault.azure.net/secrets/password/24e4be2d891441e8a6da18a56a169535]
+module.VM.azurerm_linux_virtual_machine.vm["VM1"]: Refreshing state... [id=/subscriptions/24a39552-b2b4-4248-82ea-0f1e564e911b/resourceGroups/ALZ/providers/Microsoft.Compute/virtualMachines/frontvm01]
+module.VM.azurerm_linux_virtual_machine.vm["VM2"]: Refreshing state... [id=/subscriptions/24a39552-b2b4-4248-82ea-0f1e564e911b/resourceGroups/ALZ/providers/Microsoft.Compute/virtualMachines/backendvm01]
+module.bastion.data.azurerm_subnet.subnet["bastion1"]: Reading...
+module.LB.data.azurerm_network_interface.nic1["lb1"]: Reading...
+module.LB.data.azurerm_network_interface.nic2["lb1"]: Reading...
+module.bastion.azurerm_public_ip.Pub01["bastion1"]: Refreshing state... [id=/subscriptions/24a39552-b2b4-4248-82ea-0f1e564e911b/resourceGroups/ALZ/providers/Microsoft.Network/publicIPAddresses/pub01]
+module.LB.azurerm_public_ip.Public_ip["lb1"]: Refreshing state... [id=/subscriptions/24a39552-b2b4-4248-82ea-0f1e564e911b/resourceGroups/ALZ/providers/Microsoft.Network/publicIPAddresses/PublicIPForLB]
+module.bastion.data.azurerm_subnet.subnet["bastion1"]: Read complete after 1s [id=/subscriptions/24a39552-b2b4-4248-82ea-0f1e564e911b/resourceGroups/ALZ/providers/Microsoft.Network/virtualNetworks/lz_vnet/subnets/AzureBastionSubnet]
+module.bastion.azurerm_bastion_host.bastion["bastion1"]: Refreshing state... [id=/subscriptions/24a39552-b2b4-4248-82ea-0f1e564e911b/resourceGroups/ALZ/providers/Microsoft.Network/bastionHosts/bastionpip]
+module.LB.data.azurerm_network_interface.nic1["lb1"]: Read complete after 1s [id=/subscriptions/24a39552-b2b4-4248-82ea-0f1e564e911b/resourceGroups/ALZ/providers/Microsoft.Network/networkInterfaces/frontend-nic]
+module.LB.azurerm_lb.lb1["lb1"]: Refreshing state... [id=/subscriptions/24a39552-b2b4-4248-82ea-0f1e564e911b/resourceGroups/ALZ/providers/Microsoft.Network/loadBalancers/TestLoadBalancer]
+module.LB.data.azurerm_network_interface.nic2["lb1"]: Read complete after 1s [id=/subscriptions/24a39552-b2b4-4248-82ea-0f1e564e911b/resourceGroups/ALZ/providers/Microsoft.Network/networkInterfaces/backend-nic]
+module.LB.azurerm_lb_backend_address_pool.pool_backend["lb1"]: Refreshing state... [id=/subscriptions/24a39552-b2b4-4248-82ea-0f1e564e911b/resourceGroups/ALZ/providers/Microsoft.Network/loadBalancers/TestLoadBalancer/backendAddressPools/BackEndAddressPool]
+module.LB.azurerm_network_interface_backend_address_pool_association.association2["lb1"]: Refreshing state... [id=/subscriptions/24a39552-b2b4-4248-82ea-0f1e564e911b/resourceGroups/ALZ/providers/Microsoft.Network/networkInterfaces/backend-nic/ipConfigurations/internal_back|/subscriptions/24a39552-b2b4-4248-82ea-0f1e564e911b/resourceGroups/ALZ/providers/Microsoft.Network/loadBalancers/TestLoadBalancer/backendAddressPools/BackEndAddressPool]
+module.LB.azurerm_network_interface_backend_address_pool_association.association1["lb1"]: Refreshing state... [id=/subscriptions/24a39552-b2b4-4248-82ea-0f1e564e911b/resourceGroups/ALZ/providers/Microsoft.Network/networkInterfaces/frontend-nic/ipConfigurations/internal_front|/subscriptions/24a39552-b2b4-4248-82ea-0f1e564e911b/resourceGroups/ALZ/providers/Microsoft.Network/loadBalancers/TestLoadBalancer/backendAddressPools/BackEndAddressPool]
+module.LB.azurerm_lb_probe.lb_probe1["lb1"]: Refreshing state... [id=/subscriptions/24a39552-b2b4-4248-82ea-0f1e564e911b/resourceGroups/ALZ/providers/Microsoft.Network/loadBalancers/TestLoadBalancer/probes/Probe1]
+module.LB.azurerm_lb_rule.mylbrule1["lb1"]: Refreshing state... [id=/subscriptions/24a39552-b2b4-4248-82ea-0f1e564e911b/resourceGroups/ALZ/providers/Microsoft.Network/loadBalancers/TestLoadBalancer/loadBalancingRules/mylbrule1]
+
+Note: Objects have changed outside of Terraform
+
+Terraform detected the following changes made outside of Terraform since the
+last "terraform apply" which may have affected this plan:
+
+  # module.LB.azurerm_lb.lb1["lb1"] has changed
+  ~ resource "azurerm_lb" "lb1" {
+        id                   = "/subscriptions/24a39552-b2b4-4248-82ea-0f1e564e911b/resourceGroups/ALZ/providers/Microsoft.Network/loadBalancers/TestLoadBalancer"
+        name                 = "TestLoadBalancer"
+        tags                 = {}
+        # (5 unchanged attributes hidden)
+
+      ~ frontend_ip_configuration {
+            id                            = "/subscriptions/24a39552-b2b4-4248-82ea-0f1e564e911b/resourceGroups/ALZ/providers/Microsoft.Network/loadBalancers/TestLoadBalancer/frontendIPConfigurations/PublicIPAddress"
+          ~ inbound_nat_rules             = [
+              + "/subscriptions/24a39552-b2b4-4248-82ea-0f1e564e911b/resourceGroups/ALZ/providers/Microsoft.Network/loadBalancers/TestLoadBalancer/inboundNatRules/docker",
+            ]
+            name                          = "PublicIPAddress"
+          ~ outbound_rules                = [
+              + "/subscriptions/24a39552-b2b4-4248-82ea-0f1e564e911b/resourceGroups/ALZ/providers/Microsoft.Network/loadBalancers/TestLoadBalancer/outboundRules/internet",
+            ]
+            # (4 unchanged attributes hidden)
+        }
+    }
+
+
+Unless you have made equivalent changes to your configuration, or ignored the
+relevant attributes using ignore_changes, the following plan may include
+actions to undo or respond to these changes.
+
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+
+Terraform used the selected providers to generate the following execution
+plan. Resource actions are indicated with the following symbols:
+  ~ update in-place
+  - destroy
+-/+ destroy and then create replacement
+
+Terraform will perform the following actions:
+
+  # module.LB.azurerm_lb_rule.mylbrule1["lb1"] will be updated in-place
+  ~ resource "azurerm_lb_rule" "mylbrule1" {
+      ~ backend_address_pool_ids       = [
+          - "/subscriptions/24a39552-b2b4-4248-82ea-0f1e564e911b/resourceGroups/ALZ/providers/Microsoft.Network/loadBalancers/TestLoadBalancer/backendAddressPools/BackEndAddressPool",
+        ]
+      ~ disable_outbound_snat          = true -> false
+        id                             = "/subscriptions/24a39552-b2b4-4248-82ea-0f1e564e911b/resourceGroups/ALZ/providers/Microsoft.Network/loadBalancers/TestLoadBalancer/loadBalancingRules/mylbrule1"
+        name                           = "mylbrule1"
+        # (11 unchanged attributes hidden)
+    }
+
+  # module.bastion.azurerm_bastion_host.bastion["bastion1"] must be replaced
+-/+ resource "azurerm_bastion_host" "bastion" {
+      ~ dns_name               = "bst-3cfc48ff-a8b2-4a26-b4d1-2bbebc666208.bastion.azure.com" -> (known after apply)
+      ~ id                     = "/subscriptions/24a39552-b2b4-4248-82ea-0f1e564e911b/resourceGroups/ALZ/providers/Microsoft.Network/bastionHosts/bastionpip" -> (known after apply)
+        name                   = "bastionpip"
+      ~ scale_units            = 4 -> 2
+      ~ shareable_link_enabled = true -> false
+      ~ sku                    = "Standard" -> "Basic" # forces replacement
+      - tags                   = {} -> null
+        # (6 unchanged attributes hidden)
+
+        # (1 unchanged block hidden)
+    }
+
+  # module.nsg.azurerm_network_security_group.NSG["nsg1"] will be updated in-place
+  ~ resource "azurerm_network_security_group" "NSG" {
+        id                  = "/subscriptions/24a39552-b2b4-4248-82ea-0f1e564e911b/resourceGroups/ALZ/providers/Microsoft.Network/networkSecurityGroups/frontendsubnet_nsg"
+        name                = "frontendsubnet_nsg"
+      ~ security_rule       = [
+          - {
+              - access                                     = "Allow"
+              - description                                = ""
+              - destination_address_prefix                 = "*"
+              - destination_address_prefixes               = []
+              - destination_application_security_group_ids = []
+              - destination_port_range                     = "*"
+              - destination_port_ranges                    = []
+              - direction                                  = "Inbound"
+              - name                                       = "rule1"
+              - priority                                   = 100
+              - protocol                                   = "Tcp"
+              - source_address_prefix                      = "*"
+              - source_address_prefixes                    = []
+              - source_application_security_group_ids      = []
+              - source_port_range                          = "*"
+              - source_port_ranges                         = []
+            },
+          - {
+              - access                                     = "Allow"
+              - description                                = ""
+              - destination_address_prefix                 = "*"
+              - destination_address_prefixes               = []
+              - destination_application_security_group_ids = []
+              - destination_port_range                     = "443"
+              - destination_port_ranges                    = []
+              - direction                                  = "Outbound"
+              - name                                       = "AllowAnyHTTPSOutbound"
+              - priority                                   = 120
+              - protocol                                   = "Tcp"
+              - source_address_prefix                      = "*"
+              - source_address_prefixes                    = []
+              - source_application_security_group_ids      = []
+              - source_port_range                          = "*"
+              - source_port_ranges                         = []
+            },
+          - {
+              - access                                     = "Allow"
+              - description                                = ""
+              - destination_address_prefix                 = "*"
+              - destination_address_prefixes               = []
+              - destination_application_security_group_ids = []
+              - destination_port_range                     = "80"
+              - destination_port_ranges                    = []
+              - direction                                  = "Outbound"
+              - name                                       = "AllowAnyCustomAnyOutbound"
+              - priority                                   = 110
+              - protocol                                   = "Tcp"
+              - source_address_prefix                      = "*"
+              - source_address_prefixes                    = []
+              - source_application_security_group_ids      = []
+              - source_port_range                          = "*"
+              - source_port_ranges                         = []
+            },
+          - {
+              - access                                     = "Allow"
+              - description                                = ""
+              - destination_address_prefix                 = "*"
+              - destination_address_prefixes               = []
+              - destination_application_security_group_ids = []
+              - destination_port_range                     = "9001"
+              - destination_port_ranges                    = []
+              - direction                                  = "Inbound"
+              - name                                       = "AllowAnyCustom9001Inbound"
+              - priority                                   = 130
+              - protocol                                   = "*"
+              - source_address_prefix                      = "*"
+              - source_address_prefixes                    = []
+              - source_application_security_group_ids      = []
+              - source_port_range                          = "*"
+              - source_port_ranges                         = []
+            },
+          + {
+              + access                                     = "Allow"
+              + description                                = null
+              + destination_address_prefix                 = "*"
+              + destination_address_prefixes               = []
+              + destination_application_security_group_ids = []
+              + destination_port_range                     = "*"
+              + destination_port_ranges                    = []
+              + direction                                  = "Inbound"
+              + name                                       = "rule1"
+              + priority                                   = 100
+              + protocol                                   = "Tcp"
+              + source_address_prefix                      = "*"
+              + source_address_prefixes                    = []
+              + source_application_security_group_ids      = []
+              + source_port_range                          = "*"
+              + source_port_ranges                         = []
+            },
+        ]
+        tags                = {}
+        # (2 unchanged attributes hidden)
+    }
+
+  # module.nsg.azurerm_network_security_group.NSG["nsg2"] will be updated in-place
+  ~ resource "azurerm_network_security_group" "NSG" {
+        id                  = "/subscriptions/24a39552-b2b4-4248-82ea-0f1e564e911b/resourceGroups/ALZ/providers/Microsoft.Network/networkSecurityGroups/Backendsub_NSG"
+        name                = "Backendsub_NSG"
+      ~ security_rule       = [
+          - {
+              - access                                     = "Allow"
+              - description                                = ""
+              - destination_address_prefix                 = "*"
+              - destination_address_prefixes               = []
+              - destination_application_security_group_ids = []
+              - destination_port_range                     = "*"
+              - destination_port_ranges                    = []
+              - direction                                  = "Inbound"
+              - name                                       = "rule1"
+              - priority                                   = 100
+              - protocol                                   = "Tcp"
+              - source_address_prefix                      = "*"
+              - source_address_prefixes                    = []
+              - source_application_security_group_ids      = []
+              - source_port_range                          = "*"
+              - source_port_ranges                         = []
+            },
+          - {
+              - access                                     = "Allow"
+              - description                                = ""
+              - destination_address_prefix                 = "*"
+              - destination_address_prefixes               = []
+              - destination_application_security_group_ids = []
+              - destination_port_range                     = "9001"
+              - destination_port_ranges                    = []
+              - direction                                  = "Inbound"
+              - name                                       = "AllowAnyCustom9001Inbound"
+              - priority                                   = 110
+              - protocol                                   = "*"
+              - source_address_prefix                      = "*"
+              - source_address_prefixes                    = []
+              - source_application_security_group_ids      = []
+              - source_port_range                          = "*"
+              - source_port_ranges                         = []
+            },
+          + {
+              + access                                     = "Allow"
+              + description                                = null
+              + destination_address_prefix                 = "*"
+              + destination_address_prefixes               = []
+              + destination_application_security_group_ids = []
+              + destination_port_range                     = "*"
+              + destination_port_ranges                    = []
+              + direction                                  = "Inbound"
+              + name                                       = "rule1"
+              + priority                                   = 100
+              + protocol                                   = "Tcp"
+              + source_address_prefix                      = "*"
+              + source_address_prefixes                    = []
+              + source_application_security_group_ids      = []
+              + source_port_range                          = "*"
+              + source_port_ranges                         = []
+            },
+        ]
+        tags                = {}
+        # (2 unchanged attributes hidden)
+    }
+
+  # module.nsg.azurerm_network_security_group.NSG["nsg3"] will be destroyed
+  # (because key ["nsg3"] is not in for_each map)
+  - resource "azurerm_network_security_group" "NSG" {
+      - id                  = "/subscriptions/24a39552-b2b4-4248-82ea-0f1e564e911b/resourceGroups/ALZ/providers/Microsoft.Network/networkSecurityGroups/AzureBastionSubnetNSG" -> null
+      - location            = "canadacentral" -> null
+      - name                = "AzureBastionSubnetNSG" -> null
+      - resource_group_name = "ALZ" -> null
+      - security_rule       = [
+          - {
+              - access                                     = "Allow"
+              - description                                = ""
+              - destination_address_prefix                 = "*"
+              - destination_address_prefixes               = []
+              - destination_application_security_group_ids = []
+              - destination_port_range                     = "*"
+              - destination_port_ranges                    = []
+              - direction                                  = "Inbound"
+              - name                                       = "rule1"
+              - priority                                   = 100
+              - protocol                                   = "Tcp"
+              - source_address_prefix                      = "*"
+              - source_address_prefixes                    = []
+              - source_application_security_group_ids      = []
+              - source_port_range                          = "*"
+              - source_port_ranges                         = []
+            },
+        ] -> null
+      - tags                = {} -> null
+    }
+
+Plan: 1 to add, 3 to change, 2 to destroy.
+
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+
+Note: You didn't use the -out option to save this plan, so Terraform can't
+guarantee to take exactly these actions if you run "terraform apply" now.
